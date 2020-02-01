@@ -12,6 +12,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
+
 .expanda {
   font-weight: 600;
   color: black;
@@ -48,10 +49,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   border-radius: 4px;
   letter-spacing: .03em;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);  
   padding: 0 14px;
   color: white;
-  background: linear-gradient(150deg, #6222b5 15%, #9849A5 50%, rgb(196, 16, 224) 94%); // green
+  background: linear-gradient(150deg, #6222b5 15%, #883895 50%, rgb(196, 16, 224) 94%); // green
 }
 
 .polly-button-green-small {
@@ -258,14 +259,14 @@ main {
 .Mockups {
   z-index: 1;
   position: absolute;
-  top: 415px;
+  top: 115px;
   pointer-events: none;
-  left: 33%;
+  left: 60%;
 
   width: 400px;
   margin-left: -10px;
 
-  transform: rotate(-12deg);
+  // transform: rotate(-12deg);
   transform-origin: 100% 0;
 
   #support {
