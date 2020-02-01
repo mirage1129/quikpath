@@ -263,7 +263,7 @@ main {
   pointer-events: none;
   left: 60%;
 
-  width: 400px;
+  width: 300px;
   margin-left: -10px;
 
   // transform: rotate(-12deg);
@@ -431,15 +431,30 @@ main {
 @media screen and (max-width: 540px) {
 
   div.Developers {
-    margin-top: 30px;
+    margin-top: 0px;
   }
 
   .MainHero {
     h1 {
       font-size: 40px;
     }
+    .hero-body {
+      padding-bottom: 90px;
+      padding-top: 100px;
+    }
   }  
+
+  .Mockups {
+    padding-bottom: 130px;
+    // background-color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
 }
+
 
 .Writers, .Readers, .Developers {
   .blurb {
