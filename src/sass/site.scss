@@ -377,7 +377,7 @@ main {
       position: absolute;
       left: 0;
       width: 100%;
-      top: 00px;
+      top: 0px;
       height: 420px;
       background: #f6f9fc;
       // background: #dedede;
@@ -390,7 +390,7 @@ main {
     background: #f6f9fc;
 }
 .MainFooter {
-  background: #f6f9fc;
+  background: white;
 }
 @media screen and (max-width: 768px) {
   .column {
@@ -453,22 +453,31 @@ main {
     width: 75%;
   }
 
+  .level {
+    border-bottom: 1px solid #D3D3D3;
+    border-top: 1px solid #D3D3D3;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+
 }
 
-
-.Writers, .Readers, .Developers {
-  .blurb {
+.blurb {
     padding: 0px 30px 0;
     margin-bottom: 30px;
   }
-  .rapid-title { 
+.rapid-title { 
     margin-top:20px;
-    padding-top:70px;
+    padding-top:60px;
   }
-  .logosarea {
-    border-top: 1px solid #D3D3D3;
+.level {
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom:10px;
   }
-}
+
+  .Developers {
+    margin-bottom:60px;
+  }
 
 .tile1 {
   background: #9DC73A;
