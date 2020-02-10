@@ -131,22 +131,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top:80px;
 }
 
-.expanda {
-  font-weight: 600;
-  color: black;
-  font-size: 30px;
-  margin-left: 10px;
-}
-.pricing {
-  color: black;
-  
-}
-.polly-Header {
-  text-transform: uppercase;
-  font-size: 13px !important;
-  font-weight: 700 !important;
-}
-
 .polly-button-green {
   font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform: uppercase;
@@ -175,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 14px;
   color: white;
   background: linear-gradient(150deg, #6222b5 15%, #9849A5 50%, rgb(196, 16, 224) 94%); // green
+  margin-top:20px;
 }
 
 ::selection { // keep this separate from below
@@ -186,26 +171,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.CTA {
-    background: #f6f9fc;
-    position: relative;
-    &::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      width: 100%;
-      top: 0px;
-      height: 420px;
-      background: #f6f9fc;
-      // background: #dedede;
-      // transform: skew(0, -12deg);
-      // transform-origin: top left;
-      // z-index: 0;
-    }
+.test {
+  background-color: red;
 }
 
-.MainFooter {
-  background: white;
+.CTA {
+    background: #f6f9fc;
+    padding-bottom:50px;
+}
+
+.main-footer{
+  margin:30px 0px;
 }
 
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -243,6 +219,12 @@ h1, h2, h3, h4, h5, h6 {
   .Customers{
     margin-bottom: 140px;
   }
+
+  .cta-col{ 
+    width:80%;
+    margin:auto;
+  }
+
 }
 
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
