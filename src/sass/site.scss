@@ -186,169 +186,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-main {
-  position: relative;
-  overflow: hidden;
-  display: block;
-}
-.avatar {
-  margin: auto;
-  img {
-    border-radius: 50%;
-  }
-}
-
-.MainMenu {
-  z-index: 99;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-
-  &-Products {
-    .product-icon {
-      max-height: 128px;
-      // box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-    }
-    .media-content {
-      margin: auto 0;
-    }
-  }
-}
-.card {
-  border-radius: 4px;
-
-  .content {
-    font-size: 0.8rem;
-  }
-
-  .card-footer-item {
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    font-size: 13px;
-    height: 35px;
-    line-height: 35px;
-    font-weight: 500;
-    color: black;
-  }
-}
-
-.PollyMember {
-  figure {
-    margin-bottom: 20px;
-  }
-}
-.ProductCard {
-  .title {
-    margin-bottom: 5px;
-  }
-  .content {
-    color: black;
-  }
-  figure {
-    margin: 0 auto;
-    padding-top: 12px;
-  }
-  &:hover {
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-  }
-}
-
-.section-header {
-  padding-bottom: 20px;
-}
-
-
-
-.AppFeatures {
-
-  .AppFeatureMenu {
-
-    a {
-      font-weight: 600;
-      overflow: hidden;
-      white-space: nowrap;
-      font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-      text-transform: uppercase;
-      font-size: 13px;
-      height: 35px;
-      line-height: 35px;
-      font-weight: 500;
-      letter-spacing: .03em;
-      padding: 0 14px;
-      color: #6772e5;
-      &:hover {
-        background: none;
-        color: black;
-      }
-      &.is-active, &:hover .is-active {
-        color: #56b050;
-        box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
-        background: #fff;
-        border-radius: 4px;
-      }
-      img {
-        display: inline;
-        height: 25px;
-        width: 25px;
-        margin: 5px 10px 5px -5px;
-        float: left;
-        box-shadow: none !important;
-        fill: #333;
-        stroke:  #333;
-        color:  black;
-      }
-    }
-  }
-  &.Reader {
-    a.is-active {
-      background: #209cee;
-    }
-  }
-  .AppFeatureTabs {
-    a {
-      font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-      text-transform: uppercase;
-      font-size: 13px;
-      // height: 35px;
-      line-height: 35px;
-      font-weight: 500;
-    }
-    li.is-active a {
-      font-weight: 700;
-      color: black;
-      border-bottom-color: black;
-    }
-  }
-  .tab-content {
-    h5 {
-      color: #55b04f;
-      font-weight: 600;
-    }
-  }
-  &.Reader {
-    .tab-content {
-      h5 {
-        color: #209cee;
-      }
-    }
-  }
-}
-.Bundle {
-  // position: relative;
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   left: 0;
-  //   width: 100%;
-  //   bottom: 0px;
-  //   height: 300px;
-  //   background: #f5f5f5;
-  //   transform: skew(0,-12deg);
-  //   z-index: 0;
-  // }
-  .BundleCard {
-    z-index: 9;
-    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
-  }
-}
 .CTA {
     background: #f6f9fc;
     position: relative;
@@ -366,37 +203,13 @@ main {
       // z-index: 0;
     }
 }
-.AppFeatures {
-    background: #f6f9fc;
-}
+
 .MainFooter {
   background: white;
 }
 
-
-
-
-.tile1 {
-background: #9DC73A;
-color: white;
-}
-
-.tile2 {
-background: #64C65D;
-color: white;
-}
-
-.tile3 {
-background: #54AA4E;
-color: white;
-}
-
-.pricing-header {
-margin-bottom: 50px;
-margin-top: 25px;
-}
-
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 @media screen and (max-width: 770px) {
   .MainHero {
     .hero-body {
@@ -432,10 +245,7 @@ margin-top: 25px;
   }
 }
 
-
-
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 
 @media screen and (max-width: 540px) {
 
