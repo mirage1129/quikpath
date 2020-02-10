@@ -102,17 +102,34 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 14px;
     margin-top:15px
   }
-
-  .padder-card {
-    display: none;
-    flex: 0 0 auto;
-    border: 1px solid white;
-    width: 50px;
-    height: 350px;
-  }
-
 }
 
+.Mockups {
+  z-index: 1;
+  position: absolute;
+  top: 155px;
+  pointer-events: none;
+  left: 60%;
+  width: 300px;
+  margin-left: -10px;
+  transform-origin: 100% 0;
+}
+
+.Customers{
+  padding: 0px 30px;
+  margin-bottom: 100px;
+}
+
+.rapid-title { 
+  margin-top:180px;
+  padding-bottom: 20px
+}
+
+.level {
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom:10px;
+  margin-top:80px;
+}
 
 .expanda {
   font-weight: 600;
@@ -240,28 +257,6 @@ main {
 
 
 
-
-.Mockups {
-  z-index: 1;
-  position: absolute;
-  top: 155px;
-  pointer-events: none;
-  left: 60%;
-
-  width: 300px;
-  margin-left: -10px;
-
-  // transform: rotate(-12deg);
-  transform-origin: 100% 0;
-
-  #support {
-    position: relative;
-    width: 300px;
-    z-index: 9;
-    margin-left: 45%;
-  }
-}
-
 .AppFeatures {
 
   .AppFeatureMenu {
@@ -379,23 +374,7 @@ main {
 }
 
 
-.blurb {
-  padding: 0px 30px;
-}
-.rapid-title { 
-  margin-top:120px;
-  padding-top:60px;
-}
-.level {
-  border-bottom: 1px solid #D3D3D3;
-  padding-bottom:10px;
-  padding-top:80px;
-  // margin-bottom: 100px;
-}
 
-.Developers {
-  margin-bottom:60px;
-}
 
 .tile1 {
 background: #9DC73A;
@@ -418,15 +397,14 @@ margin-top: 25px;
 }
 
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .MainHero {
     .hero-body {
       padding-bottom: 140px;
       padding-top: 100px;
     }
   }
-  
-  
+
   .column {
     .box {
       margin-left: 10px;
@@ -434,22 +412,23 @@ margin-top: 25px;
     }
   }
 
-  .cta-section {
-    background-color: #F6F9FC;
-  }
-
-  
-
   .Mockups {
     position: relative;
-    width: 120%;
+    width: 75%;
     left: 0;
-    transform-origin: top;
-    margin-top: -25%;
-    margin-bottom: 30px;
-    #support {
-      display: none;
-    }
+    margin-top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .level {
+    margin-top: 300px;
+    border-top: 1px solid #D3D3D3;
+    padding-top:20px;
+  }
+
+  .Customers{
+    margin-bottom: 140px;
   }
 }
 
@@ -459,10 +438,6 @@ margin-top: 25px;
 
 
 @media screen and (max-width: 540px) {
-
-  div.Developers {
-    margin-top: 0px;
-  }
 
   .MainHero {
     h1 {
@@ -476,26 +451,19 @@ margin-top: 25px;
 
   .Mockups {
     padding-bottom: 130px;
-    // background-color: red;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    margin-top:-25%
   }
 
   .level {
-    border-bottom: 1px solid #D3D3D3;
-    border-top: 1px solid #D3D3D3;
-    padding-top:20px;
-    padding-bottom:20px;
     margin-top:150px;
-    // margin-bottom: -160px;
-    background-color: red;
   }
-  // .blurb {
-  //   padding: 0px 0px;
-  //   padding-bottom: 50px;
-  //   padding-top: 50px;
-  // }
+
+  .rapid-title { 
+    margin-top:140px;
+  }
 
 }
