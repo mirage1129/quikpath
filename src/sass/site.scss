@@ -122,6 +122,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .video{
   padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .iframe {
@@ -211,11 +213,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .Mockups {
-    // position: relative;
+    position: relative;
     width: 75%;
-    left: 40px;
-    padding-top: 500px;
-    margin: auto;
+    left: 0;
+    margin-top: -40%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .video{
@@ -259,12 +262,11 @@ h1, h2, h3, h4, h5, h6 {
   }  
 
   .Mockups {
-    padding-bottom: 130px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    margin-top:-25%
+    margin-top:-60%;
   }
 
   .level {
